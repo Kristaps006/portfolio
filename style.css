@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: "Bree Serif";
+  
+}
+
+.head {
+  position: relative;
+  padding-top: 15px;
+  height: 400px;
+  width: auto;
+}
+
+.head::after {
+  content: "";
+  background-image: url("https://images.pexels.com/photos/1037993/pexels-photo-1037993.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500https://images.pexels.com/photos/633409/pexels-photo-633409.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500ttps://images.unsplash.com/photo-1494888427482-242d32babc0b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDN8fHNlb3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  width: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.9;
+  z-index: -1;
+}
+
+.menu {
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+li {
+  margin-right: 30px;
+  text-decoration: none;
+  padding-right: 20px;
+}
+a {
+  text-decoration: none;
+  color:black;
+}
+.name {
+  color: black;
+  text-align: right
+  font-size: 25px;
+  margin-top: 50px;
+  margin-left : 40px;
+  font-size : 32px;
+}
+
+.briefintro_section {
+ margin-top: 50px;
+ width: 100%;
+ display: inline-grid;
+ grid-template-columns: 30% auto;
+ grid-template-rows: 400px ;
+ font-size: 4vw 6vh;
+}
+.picture {
+  height: auto;
+  width:auto;
+
+}
+.description {
+  height: 300px;
+  width:auto;
+  margin-right: 30px;
+  font-size: 20px;
+ 
+
+
+}
+.brieftext {
+
+  margin-top: 10%;
+  position: relative;
+  right: 10%;
+  left:23%0;
+  height: auto;
+  text-align: justify;
+  background-color: whitesmoke;
+  border-radius: 3px;
+  padding-left: 20px;
+}
+
+  
+
+.mineimage{
+height: 100%;
+width: auto;
+margin-left: 10px;
+border: 3px solid white;
+}
+
+.exp_name {
+  text-align: end;
+  margin-right: 10%;
+  font-size: 32px;
+}
+
+hr{
+  margin: 40px;
+  opacity: 0.5;
+}
+
+.experience_section {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 400px;
+  grid-gap: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  max-width: 1200px;
+ 
+  
+
+}
+
+.keywords, .onpage, .web {
+  height: auto;
+  text-align: center;
+  padding: 10%;
+  background-color: #E9F3F2
+  }
+
+h3{
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.section2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+  .experience_section { grid-template-columns: repeat(1, 1fr); }
+}
