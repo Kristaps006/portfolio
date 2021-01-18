@@ -50,7 +50,9 @@
       <div class="experience_section">
         <div class="keywords">
           <h3>Keywords</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio diam, auctor nec pharetra molestie, interdum sit amet ligula. Quisque dictum dui neque. Nam mattis ut nisl quis lacinia. Proin vehicula ut libero vitae molestie. Donec sollicitudin faucibus quam, eu mattis lacus mattis et. Suspendisse iaculis sit amet enim rhoncus imperdiet. </p>
+          <p>The issue is with how you're assigning your grid-areas. It's invalid to assign the same element to multiple grid areas.
+
+            Have a look at the following example. It's a a modification of the code you've included above. Notice how each grid item is unique in how it's placed in the grid.</p>
         </div>
         <div class="onpage">
           <h3>On & Off Page SEO</h3>
@@ -62,5 +64,16 @@
         </div>
       </div>
     </section>
+      <h2 class="contact_name">Get in Touch</h2>
+      <div class="contact_section">
+        <form action="#">
+          <label for="fname">First Name</label><br>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+          <label for="#">Your Email</label>
+          
+
+        </form>
+
+      </div>
   </body>
 </html>

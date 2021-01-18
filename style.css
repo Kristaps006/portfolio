@@ -51,7 +51,7 @@ a {
   text-decoration: none;
   color:black;
 }
-.name {
+.name, .contact_name {
   color: black;
   text-align: right
   font-size: 25px;
@@ -66,7 +66,6 @@ a {
  display: inline-grid;
  grid-template-columns: 30% auto;
  grid-template-rows: 400px ;
- font-size: 4vw 6vh;
 }
 .picture {
   height: auto;
@@ -123,7 +122,9 @@ hr{
   grid-gap: 10px;
   margin-left: 10px;
   margin-right: 10px;
-  max-width: 1200px;
+  width: auto;
+
+
  
   
 
@@ -145,6 +146,9 @@ h3{
   margin-top: 30px;
   margin-bottom: 30px;
 }
+.contact_section {
+  display: grid;
+}
 
 
 
@@ -152,7 +156,7 @@ h3{
 
 
 
-
-@media (max-width: 800px) {
+ @media (max-width: 800px) {
   .experience_section { grid-template-columns: repeat(1, 1fr); }
 }
+ 
