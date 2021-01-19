@@ -39,7 +39,7 @@
       <section id="nav_1"class="section1">
         <h1 class="name">About</h1>
         <div class="briefintro_section">
-          <div class="picture"><img class="mineimage" src="https://images.pexels.com/photos/1081685/pexels-photo-1081685.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="profilepicture"></div>
+          <div class="picture"><img class="mineimage" src="https://images.unsplash.com/photo-1610581863373-d12c9f9bf94a?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDM0fGhtZW52UWhVbXhNfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" alt="profilepicture"></div>
           <div class="description"><p class="brieftext">This page shares my best articles to read on topics like health, happiness, creativity, productivity and more. The central question that drives my work is, “How can we live better?” To answer that question, I like to write about science-based ways to solve practical problems.</p> </div>
           </div>
         </div>
@@ -51,7 +51,6 @@
         <div class="keywords">
           <h3>Keywords</h3>
           <p>The issue is with how you're assigning your grid-areas. It's invalid to assign the same element to multiple grid areas.
-
             Have a look at the following example. It's a a modification of the code you've included above. Notice how each grid item is unique in how it's placed in the grid.</p>
         </div>
         <div class="onpage">
@@ -64,16 +63,21 @@
         </div>
       </div>
     </section>
+    <section class="contact_section">
       <h2 class="contact_name">Get in Touch</h2>
       <div class="contact_section">
         <form action="#">
           <label for="fname">First Name</label><br>
           <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
-          <label for="#">Your Email</label>
-          
-
+          <label for="lname">Last Name</label><br>
+          <input for="lname" id="lname" name="lastname" placeholder="Your last name.."><br>
+          <label for="email">Your Email</label><br>
+          <input type="email" name="email" id="email"><br>
+          <label for="message" class= "messageLabel">Message</label><br>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+         <input  class="btn" type="button" value="Send">
         </form>
-
       </div>
+    </section>
   </body>
 </html>
